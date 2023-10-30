@@ -67,12 +67,20 @@
     flex-direction: column;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    align-items: center;
+    padding-left: 10%;
+    margin-top: 10%;
+    transition-property: all;
+    width: 100%;
+    transition-duration: .30s;
 }
 
 .titulo h1{
     font-family: bebas neue;
     font-size: 100px;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+	
 }
 
 .titulo p{
@@ -80,4 +88,17 @@
     font-size: 48px;
     margin-left: 33.333%;
     margin-right: 8.333%;
+
 }
+
+.separador1{
+    padding-top: 15%;
+    
+    width: 100%;
+}
+.separador1 img{
+    
+    min-height: 100vh;
+    height: 100%;
+}
+
