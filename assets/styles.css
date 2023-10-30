@@ -1,0 +1,83 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap');
+
+
+:root{
+    --navbar: #213041;
+    --background: #0B1D26;
+    --blanco: #f3f4f6;
+    --amarillo: #f4a746;
+    --border: #000113;
+    --nebulalogo: #6fbce6;
+    --negro: #000000;
+    --gris: #9b9b9b;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+.header{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    
+    
+    
+}
+
+.navbar,
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}    
+
+.logo img {
+    height: 60px;
+    width: auto;
+    
+}
+
+.nav-list li a{
+    color: var(--negro);
+    text-decoration: none;
+   
+}
+#menu-toggle,
+.menu-label{
+    display: none;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    align-items: center;
+}
+
+.titulo h1{
+    font-family: bebas neue;
+    font-size: 100px;
+}
+
+.titulo p{
+    font-family: roboto;
+    font-size: 48px;
+    margin-left: 33.333%;
+    margin-right: 8.333%;
+}
